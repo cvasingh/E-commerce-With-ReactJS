@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
   return (
     // <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top" style={{backgroundColor: "rgb(227,242,253)"}}>
     <nav className="navbar navbar-expand-lg navbar-dark "
@@ -13,8 +13,12 @@ function Header() {
         <div className="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
           <div className="nav navbar-nav">
             <a className="nav-link active" aria-current="page" href="#">Home</a>
-            <a className="nav-link" href="#">About</a>
-            <a className="nav-link" href="#">Contact</a>
+            <a className="nav-link" href="#cameras">Cameras</a>
+            <a className="nav-link" href="#watches">Watches</a>
+            <a className="nav-link" href="#shirts">Shirts</a>
+            {/* <a className="nav-link" href="#">About</a>
+            <a className="nav-link" href="#">Contact</a> */}
+            <a className="nav-link" onClick={() => props.viewHandler()} href="#">Cart</a>
             <a className="nav-link" href="#">LogIn</a>
           </div>
         </div>

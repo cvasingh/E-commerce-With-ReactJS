@@ -4,13 +4,14 @@ export default function Product() {
     return (
         <div>
             <div className="home_banner">
-                <h1>Welcome to our Lifestyle Store!</h1>
+                <h1>Welcome to our Ecommerce Store!</h1>
                 <p>We have the best cameras, watches and
                     shirts for you. No need to hunt around, we have all in one place.
                 </p>
             </div>
             <div className="container" id="content">
                 <div className="row text-center" id="cameras">
+                <h2 className='title'>Cameras</h2>
                     <div className="col-md-3 col-sm-6 home-feature">
                         <div className="card thumbnail_bax">
                             <img className='card-img-top' src={require("./img/5.jpg").default} />
@@ -53,6 +54,7 @@ export default function Product() {
                     </div>
                 </div>
                 <div className="row text-center" id="watches">
+                <h2 className='title'>Watches</h2>
                     <div className="col-md-3 col-sm-6 home-feature">
                         <div className="card thumbnail_bax">
                             <img className='card-img-top' src={require("./img/19.jpg").default} />
@@ -95,6 +97,7 @@ export default function Product() {
                     </div>
                 </div>
                 <div className="row text-center" id="shirts">
+                <h2 className='title'>Shirts</h2>
                     <div className="col-md-3 col-sm-6 home-feature">
                         <div className="card thumbnail_bax">
                             <img className='card-img-top' src={require("./img/22.jpg").default} />
