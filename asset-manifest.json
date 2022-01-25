@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/E-commerce-With-ReactJS/static/css/main.f8412647.chunk.css",
+    "main.js": "/E-commerce-With-ReactJS/static/js/main.8a2e801c.chunk.js",
+    "main.js.map": "/E-commerce-With-ReactJS/static/js/main.8a2e801c.chunk.js.map",
+    "runtime-main.js": "/E-commerce-With-ReactJS/static/js/runtime-main.4c7e71b7.js",
+    "runtime-main.js.map": "/E-commerce-With-ReactJS/static/js/runtime-main.4c7e71b7.js.map",
+    "static/css/2.383c0125.chunk.css": "/E-commerce-With-ReactJS/static/css/2.383c0125.chunk.css",
+    "static/js/2.e52a5ca4.chunk.js": "/E-commerce-With-ReactJS/static/js/2.e52a5ca4.chunk.js",
+    "static/js/2.e52a5ca4.chunk.js.map": "/E-commerce-With-ReactJS/static/js/2.e52a5ca4.chunk.js.map",
+    "static/js/3.7b379e10.chunk.js": "/E-commerce-With-ReactJS/static/js/3.7b379e10.chunk.js",
+    "static/js/3.7b379e10.chunk.js.map": "/E-commerce-With-ReactJS/static/js/3.7b379e10.chunk.js.map",
+    "index.html": "/E-commerce-With-ReactJS/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/E-commerce-With-ReactJS/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.f8412647.chunk.css.map": "/E-commerce-With-ReactJS/static/css/main.f8412647.chunk.css.map",
+    "static/js/2.e52a5ca4.chunk.js.LICENSE.txt": "/E-commerce-With-ReactJS/static/js/2.e52a5ca4.chunk.js.LICENSE.txt",
+    "static/media/1.aecf4a03.jpg": "/E-commerce-With-ReactJS/static/media/1.aecf4a03.jpg",
+    "static/media/10.4e57aea2.jpg": "/E-commerce-With-ReactJS/static/media/10.4e57aea2.jpg",
+    "static/media/11.aea54f8d.jpg": "/E-commerce-With-ReactJS/static/media/11.aea54f8d.jpg",
+    "static/media/12.498047d0.jpg": "/E-commerce-With-ReactJS/static/media/12.498047d0.jpg",
+    "static/media/2.33171b12.jpg": "/E-commerce-With-ReactJS/static/media/2.33171b12.jpg",
+    "static/media/3.fa706575.jpg": "/E-commerce-With-ReactJS/static/media/3.fa706575.jpg",
+    "static/media/4.9695d897.jpg": "/E-commerce-With-ReactJS/static/media/4.9695d897.jpg",
+    "static/media/5.2e80cac3.jpg": "/E-commerce-With-ReactJS/static/media/5.2e80cac3.jpg",
+    "static/media/6.487114db.jpg": "/E-commerce-With-ReactJS/static/media/6.487114db.jpg",
+    "static/media/7.944df08f.jpg": "/E-commerce-With-ReactJS/static/media/7.944df08f.jpg",
+    "static/media/8.b3d99237.jpg": "/E-commerce-With-ReactJS/static/media/8.b3d99237.jpg",
+    "static/media/9.8fdbbd2e.jpg": "/E-commerce-With-ReactJS/static/media/9.8fdbbd2e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c7e71b7.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.e52a5ca4.chunk.js",
+    "static/css/main.f8412647.chunk.css",
+    "static/js/main.8a2e801c.chunk.js"
+  ]
+}
