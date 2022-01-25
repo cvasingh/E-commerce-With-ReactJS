@@ -8,10 +8,20 @@ body{
   background-color: rgb(212, 231, 245);
 }
 .main{
-  min-height:80vh;
+  padding-top: 70px;
+  min-height:93vh;
+  /* overflow-y: auto; */
 }
 .navbar-brand{
   margin: 0 50px;
+}
+.nav-link{
+  margin: 0 5px;
+  transition: .5s;
+}
+.nav-link:hover{
+  cursor: pointer;
+  transform: scale(1.2);
 }
 @media(min-width:992px) {
   .container-fluid{
@@ -21,16 +31,29 @@ body{
     position: absolute;
     top: 0;
     right: 50px;
-    /* margin-left: 550px; */
   }
   
 }
+.cart{
+  position: relative;
+}
+.noOfCart{
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50rem;
+  padding: 1px 5px;
 
+}
 .home_banner{
   padding: 25px 50px;
   margin: 20px 175px;
   border-radius: 15px;
   background-color: rgb(154,208,248);
+  box-shadow: 1px 2px 5px;
+  text-shadow: 1px 2px 3px white;
 }
 .title{
   text-align:start;
@@ -49,10 +72,34 @@ body{
   border-radius: 5px;
   padding: 5px;
   background-color: rgb(197, 226, 248);
-  border: 1px solid rgb(202, 201, 201);
+  border: 1px solid rgb(154,208,248);
+  box-shadow: 2px 5px 10px;
+  transition: .3s;
+  margin: 5px 0;
+}
+
+.thumbnail_bax:hover{
+  box-shadow: 5px 10px 10px;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.btn{
+  box-shadow: 1px 1px 2px gray;
+
 }
 .btnaddtocart{
   padding: 2px 15px;
+}
+.cartactionbutton{
+  padding: 0px 5px;
+}
+.cartquantity{
+  background-color: #fff;
+  padding:0 10px 3px 10px;
+  margin: 1px;
+  border-radius: 4px;
+  border: 2px solid rgb(118, 186, 235);
+  box-shadow: 1px 1px 2px gray;
 }
 footer {
   padding: 10px 0;

@@ -1,9 +1,11 @@
 import React from 'react';
+import { useCart } from "react-use-cart";
 
 function Header(props) {
+  const {totalItems} = useCart();
   return (
     // <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top" style={{backgroundColor: "rgb(227,242,253)"}}>
-    <nav className="navbar navbar-expand-lg navbar-dark "
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top"
       style={{ backgroundColor: "rgb(6,50,82)", textAlign: "center" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">Ecommerce</a>
@@ -12,14 +14,15 @@ function Header(props) {
         </button>
         <div className="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
           <div className="nav navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">Home</a>
-            <a className="nav-link" href="#cameras">Cameras</a>
-            <a className="nav-link" href="#watches">Watches</a>
-            <a className="nav-link" href="#shirts">Shirts</a>
+            <a className="nav-link active" aria-current="page" onClick={() => props.viewHandler()}>Home</a>
+            <a className="nav-link" href="#cameras" >Cameras <i class="fas fa-camera"></i></a>
+            <a className="nav-link" href="#watches">Watches <i class="fas fa-clock"></i></a>
+            <a className="nav-link" href="#shirts">Shirts <i class="fas fa-tshirt"></i></a>
             {/* <a className="nav-link" href="#">About</a>
             <a className="nav-link" href="#">Contact</a> */}
-            <a className="nav-link" onClick={() => props.viewHandler()} href="#">Cart</a>
-            <a className="nav-link" href="#">LogIn</a>
+            <a className="nav-link"
+              onClick={() => props.viewHandler()}>Cart
+              <i class="fas fa-shopping-cart cart"><b className='noOfCart'>{totalItems}</b></i></a>
           </div>
         </div>
       </div>
