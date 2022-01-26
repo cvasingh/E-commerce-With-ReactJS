@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
     return (
 
-        <footer>
+        <footer className='fixed-bottom'>
             <div class="container">
                 <center>
                     <p>Copyright &copy; Shiva Singh. All Rights Reserved  

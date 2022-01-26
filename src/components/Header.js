@@ -5,7 +5,7 @@ function Header(props) {
   const {totalItems} = useCart();
   return (
     // <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top" style={{backgroundColor: "rgb(227,242,253)"}}>
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top"
+    <nav className="navbar navbar-expand-lg navbar-dark "
       style={{ backgroundColor: "rgb(6,50,82)", textAlign: "center" }}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">Ecommerce</a>
